@@ -1,6 +1,5 @@
 # knust-project
 #Fine tune LLM project
-# Fine-Tuning DistilBERT for ICT Misconception Detection
 
 Engineered DistilBERT (two-layer classification head + confidence-threshold
 output mechanism) evaluated against Standard DistilBERT and six traditional
