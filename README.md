@@ -1,10 +1,6 @@
-# knust-project
-#Fine tune LLM project
+# Fine-Tuning DistilBERT for ICT Misconception Detection
 
-Engineered DistilBERT (two-layer classification head + confidence-threshold
-output mechanism) evaluated against Standard DistilBERT and six traditional
-ML baselines, on a primary field-collected corpus of open-ended ICT
-responses from Ghanaian SHS students.
+See CHANGELOG.md for the fix-to-finding mapping against Testbed feedback round 1.
 
 ## Setup
 pip install -r requirements.txt
@@ -12,6 +8,10 @@ pip install -r requirements.txt
 ## Run
 python main.py
 
+## Artifacts
+Per-seed, per-model predictions are saved to `artifacts/` as JSON files,
+enabling regeneration of all downstream statistics without retraining.
+
 ## Data
-Not included in this repository due to participant privacy constraints
-under KNUST CHRPE governance. See `data/README.md`.
+Not included due to participant privacy constraints under KNUST CHRPE
+governance. See data/README.md.
